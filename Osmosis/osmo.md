@@ -131,7 +131,7 @@ wget -O addrbook.json https://snapshots.polkachu.com/addrbook/osmosis/addrbook.j
 mv addrbook.json ~/.osmosisd/config
 ```
 
-## Service
+## Service.
 
 ```bash
 sudo tee /etc/systemd/system/osmosisd.service > /dev/null <<EOF
@@ -151,7 +151,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-## Register and start service
+## Register and start service.
 
 ```bash
 sudo systemctl daemon-reload
