@@ -118,13 +118,13 @@ sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.001uosmo\"/" $HOM
 ```bash
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.osmosisd/config/config.toml
 ```
-## Reset chain data
+## Reset chain data.
 
 ```bash
 osmosisd unsafe-reset-all --home $HOME/.osmosisd 
 ```
 
-## AddrBook
+## AddrBook.
 
 ```bash
 wget -O addrbook.json https://snapshots.polkachu.com/addrbook/osmosis/addrbook.json --inet4-only
