@@ -107,13 +107,13 @@ sed -i -e "s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_rec
 sed -i -e "s/^pruning-keep-every *=.*/pruning-keep-every = \"$pruning_keep_every\"/" $HOME/.osmosisd/config/app.toml
 sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.osmosisd/config/app.toml
 ```
-## Minimum gas price
+## Minimum gas price.
 
 ```bash
 sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.001uosmo\"/" $HOME/.osmosisd/config/app.toml
 ```
 
-## Prometheus
+## Prometheus.
 
 ```bash
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.osmosisd/config/config.toml
