@@ -39,7 +39,7 @@ NODENAME=Copypaster
 ```bash
 OSMOSIS_PORT=44
 ```
-## Save and import variables
+## Save and import variables.
 
 ```bash
 echo "export NODENAME=$NODENAME" >> $HOME/.bash_profile
@@ -50,7 +50,7 @@ echo "export OSMOSIS_CHAIN_ID=osmosis-1" >> $HOME/.bash_profile
 echo "export OSMOSIS_PORT=${OSMOSIS_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
-## Binaries
+## Binaries.
 
 ```bash
 cd $HOME
@@ -60,13 +60,13 @@ git checkout v1.0.2
 make install
 ```
 
-## Config app
+## Config app.
 
 ```bash
 osmosisd config chain-id $OSMOSIS_CHAIN_ID
 osmosisd config node tcp://localhost:${OSMOSIS_PORT}657
 ```
-## For your own risk 
+## For your own risk.
 ```bash
 osmosisd config keyring-backend file
 ```
