@@ -1,5 +1,5 @@
-# Osmosis
-## Packages
+# Osmosis.
+## Packages.
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
